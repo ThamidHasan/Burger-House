@@ -1,0 +1,409 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+}
+/*Header Start*/
+.header {
+    background-image: url(../img/banner_back.jpg);
+    overflow: hidden;
+    padding-top: 50px;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+.logo {
+    width: 20%;
+    float: left;
+}
+.logo a{}
+.logo a img {
+    width: 100%;
+}
+.menu {
+    width: 75%;
+    float: right;
+}
+.phone {
+    float: right;
+}
+.phone_img {
+    width: 15%;
+    float: left;
+    margin-right: 10px;
+}
+.phone_img img {
+    width: 100%;
+}
+.phone_text {
+    width: 80%;
+    float: right;
+}
+.phone_text p {
+    margin: 5px 0 0 0;
+}
+.menu ul {
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 55px;
+}
+.menu ul li a {
+    text-decoration: none;
+    color: #3d2514;
+}
+.menu ul li:hover a {
+    color: #fff;
+}
+/*Header End*/
+/*Banner Start*/
+.banner {
+    background-image: url(../img/banner_back.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.banner_content {
+    width: 45%;
+    float: left;
+    margin-top: 160px;
+}
+.banner_content p {
+    padding: 5px 10px;
+    font-size: 13px;
+    display: inline-block;
+    border: 2px dashed #3d2514;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+}
+.banner_content h1 {
+    margin: 0;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 110px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.banner_content h2 {
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    text-transform: uppercase;
+}
+.banner_img {
+    width: 45%;
+    float: right;
+    position: relative;
+}
+.b_img1 {
+    width: 100%;
+    position: relative;
+}
+.b_img2 {
+    margin-bottom: 40px;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+/*Banner End*/
+/*Gallery Start*/
+.gallery {
+    overflow: hidden;
+    padding: 80px 0;
+    position: relative;
+}
+.g_left {
+    width: 48%;
+    float: left;
+    position: relative;
+}
+.img_cont1 {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+.img_cont2 {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    color: #fff;
+    font-size: 30px;
+}
+.g_left img {
+    width: 100%;
+}
+.g_right {
+    width: 48%;
+    float: right;
+}
+.g_right_top {
+    margin-bottom: 30px;
+    position: relative;
+}
+.g_right_top img {
+    width: 100%;
+}
+.g_right_bouttom{
+	position: relative;
+}
+.g_right_bouttom img {
+    width: 100%;
+}
+/*Gallery End*/
+/*Enjoy Start*/
+.enjoy {
+    padding-bottom: 80px;
+}
+.enjoy_text {
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+}
+.enjoy_text h3 {
+    margin: 0 auto;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc045;
+    font-size: 20px;
+    font-weight: 300;
+}
+.enjoy_text h2 {
+    font-size: 50px;
+    margin: 20px 0;
+    font-family: 'Alfa Slab One', cursive;
+}
+.enjoy_text p {
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+}
+.enjoy_section {
+    overflow: hidden;
+    margin: 20px 0;
+}
+/*single Item*/
+.single_item {
+    width: 30.6%;
+    float: left;
+    text-align: center;
+    padding: 1.6%;
+}
+.single_item:last-child{
+    padding-right: 0;
+}
+.single_img {
+    width: 80%;
+    margin: 0 auto;
+}
+.single_img img {
+    width: 100%;
+}
+.single_item h2 {
+    margin-top: 20px;
+}
+.single_item p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px 0;
+}
+.single_item button {
+    width: 200px;
+    height: 60px;
+    font-family: 'Alfa Slab One', cursive;
+    background-color: #bf2222;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.single_item button:hover{
+    background-color: #ffc045;
+    color: #3d2514;
+}
+/*single Item*/
+/*Enjoy End*/
+/*Event Start*/
+.event {
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+.wrapper2 {
+    width: 90%;
+    margin: 0 auto;
+}
+.event_content {
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);
+    overflow: hidden;
+    margin-top: 10px;
+}
+.event_text {
+    width: 46%;
+    float: left;
+    padding: 2%;
+}
+.event_text h3 {
+    font-size: 150%;
+    font-weight: 300;
+}
+.event_text h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 250%;
+    text-transform: uppercase;
+}
+.event_text p {
+    font-family: 'Montserrat', sans-serif;
+    margin: 7% 0;
+    font-size: 120%;
+    line-height: 1.7em;
+}
+.event_img {
+    width: 46%;
+    float: right;
+    padding: 2%;
+}
+.event_img img {
+    width: 100%;
+}
+/*Event End*/
+/*Reservation Start*/
+.reservation {
+    overflow: hidden;
+    position: relative;
+    padding: 80px 0;
+}
+.wrapper3 {
+    width: 50%;
+    margin: 0 auto;
+}
+.r_text {
+    text-align: center;
+}
+.r_text p {
+    font-size: 30px;
+    font-weight: 300;
+}
+.r_text h1 {
+    font-size: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+.r_input{}
+.r_input input {
+    width: 250px;
+    padding: 15px 30px;
+    margin: 0 15px 20px 0;
+    text-transform: uppercase;
+    border-color: #bebebe;
+}
+.r_input button {
+    width: 315px;
+    padding: 11px 30px;
+    background-color: #df1c1c;
+    font-family: 'Alfa Slab One', cursive;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.r_input button:hover{
+    background-color: #ffc045;
+    color: #3d2514;
+}
+.img1 {
+    position: absolute;
+    top: -46px;
+}
+.img2 {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    width: 45%;
+}
+.img3 {
+    position: absolute;
+    top: 147px;
+    left: 90px;
+    width: 34%;
+    bottom: 48px;
+}
+/*Reservation End*/
+/*Footer Start*/
+.footer {
+    padding: 80px 0;
+}
+.f_content{
+    background-image: url(../img/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.footer_top {
+    overflow: hidden;
+
+}
+.f_left {
+    width: 45%;
+    float: left;
+    padding: 50px;
+}
+.f_logo {
+    width: 60%;
+    margin-bottom: 40px;
+}
+.f_logo img {
+    width: 100%;
+}
+.f_left p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: 300;
+}
+.f_right {
+    width: 30%;
+    float: right;
+    margin-top: 194px;
+}
+.f_right img {
+    width: 5%;
+}
+.f_right p {
+    display: inline;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 16px;
+}
+.f_bottom {
+    overflow: hidden;
+    padding: 50px;
+}
+.footer_left {
+    width: 45%;
+    float: left;
+}
+.footer_left p {
+    color: #fff;
+    font-weight: 300;
+}
+.footer_right {
+    width: 45%;
+    float: right;
+}
+.footer_right ul {
+    float: right;
+}
+.footer_right ul li {
+    float: left;
+    list-style: none;
+    margin-right: 10px;
+}
+.footer_right ul li a{}
+.footer_right ul li a img{}
+
+/*Footer End*/
