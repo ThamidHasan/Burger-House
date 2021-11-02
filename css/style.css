@@ -321,18 +321,26 @@ body{
     position: absolute;
     top: -46px;
 }
+.img1 img {
+    width: 100%;
+}
 .img2 {
     position: absolute;
-    top: 20px;
+    top: 57px;
     right: 0;
-    width: 45%;
+    width: 20%;
+}
+.img2 img {
+    width: 100%;
 }
 .img3 {
     position: absolute;
-    top: 147px;
-    left: 90px;
-    width: 34%;
-    bottom: 48px;
+    top: 275px;
+    left: 185px;
+    width: 11%;
+}
+.img3 img {
+    width: 100%;
 }
 /*Reservation End*/
 /*Footer Start*/
