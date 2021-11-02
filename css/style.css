@@ -319,14 +319,14 @@ body{
 }
 .img1 {
     position: absolute;
-    top: -46px;
+    top: -4%;
 }
 .img1 img {
     width: 100%;
 }
 .img2 {
     position: absolute;
-    top: 57px;
+    top: 10%;
     right: 0;
     width: 20%;
 }
@@ -335,8 +335,8 @@ body{
 }
 .img3 {
     position: absolute;
-    top: 275px;
-    left: 185px;
+    top: 58%;
+    left: 13%;
     width: 11%;
 }
 .img3 img {
